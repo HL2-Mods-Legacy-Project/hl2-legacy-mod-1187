@@ -1,12 +1,11 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
-  -Version "<version>" `
+  -Version "2.0.0" `
   -PreReleaseVersion "beta.1" `
-  -OutputFilePrefix "<output file prefix>" `
-  -ModName "<mod name>" `
-  -ModFolder "<mod folder>" `
-  -AdditionalModFolders @() `
+  -OutputFilePrefix "1187_Episode_One_1.3" `
+  -ModName "1187: Episode One 1.3" `
+  -ModFolder "1187" `
   -ModFilesPath "$PSScriptRoot\..\game" `
-  -ModBaseFilesUrl "<url to mod base files zip>" `
-  -ModBaseFilesUrlHash "<mod base files zip sha256>" `
-  -ModReadmePath "<mod readme path>" `
+  -ModBaseFilesUrl "https://github.com/HL2-Mods-Legacy-Project/hl2-legacy-registry/releases/download/1187/1187-Episode-One-1.3-Original.zip" `
+  -ModBaseFilesUrlHash "78d5351f41b399b5cbb0dc75072491e21af14c246c86b11d260bff6f6520add0" `
+  -ModReadmePath "README.txt" `
   -PublishPath "$PSScriptRoot\..\artifacts\publish"
